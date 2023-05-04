@@ -12,10 +12,10 @@ int main() {
 
    int result = linearSearch(arr, size, key);
    if(result == -1) {
-      cout << "Element bulunamadi" << endl;
+      cout << "aranan bulunamadi" << endl;
    }
    else {
-      cout << "Element " << result << ". indisde bulundu" << endl;
+      cout << "aranan " << result << ". indisde bulundu" << endl;
    }
    return 0;
 }
